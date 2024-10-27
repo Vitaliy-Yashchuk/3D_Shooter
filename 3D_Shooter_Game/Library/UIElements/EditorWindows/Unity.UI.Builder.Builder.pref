@@ -56,6 +56,7 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__1__Unity.UI.Builder.PersistedFoldout
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__2__Unity.UI.Builder.PersistedFoldout
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__3__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__4__Unity.UI.Builder.PersistedFoldout
   m_Values:
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":450.0}'
@@ -64,16 +65,16 @@ MonoBehaviour:
   - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_ExpandedItemIds":[1]}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ElementInfoVisibilityState":0}'
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_ExpandedItemIds":[1,-371706081]}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_ExpandedItemIds":[1,-1609582397]}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ShowPackageTemplates":false,"m_ViewMode":0,"m_ActiveTab":0}'
   - '{"m_SelectedItemId":-1268115984}'
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":35.0}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":24.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_FixedPaneDimension":306.0}'
   - '{"m_FixedPaneDimension":26.4000244140625}'
   - '{"m_FixedPaneDimension":200.0}'
-  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":0,"m_CachedContentHeights":[877.5999755859375,1147.199951171875,1309.0,1754.0,1350.0],"m_CachedScrollPositions":[{"scrollPosition":168.0,"maxScrollValue":168.0},{"scrollPosition":0.0,"maxScrollValue":437.5999755859375},{"scrollPosition":25.0,"maxScrollValue":25.0},{"scrollPosition":216.0,"maxScrollValue":470.0},{"scrollPosition":66.0,"maxScrollValue":66.0}]}'
+  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":0,"m_CachedContentHeights":[1929.0,1777.0,1647.0,1746.4000244140625,1754.0],"m_CachedScrollPositions":[{"scrollPosition":633.0,"maxScrollValue":633.0},{"scrollPosition":493.0,"maxScrollValue":493.0},{"scrollPosition":0.0,"maxScrollValue":363.0},{"scrollPosition":456.800048828125,"maxScrollValue":456.800048828125},{"scrollPosition":0.0,"maxScrollValue":470.0}]}'
   - '{"m_Value":true}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
@@ -99,4 +100,5 @@ MonoBehaviour:
   - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
+  - '{}'
   - '{}'

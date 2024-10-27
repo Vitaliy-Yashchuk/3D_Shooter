@@ -375,6 +375,9 @@
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs"
 "Assets/Scripts/PhotonLauncher.cs"
+"Assets/Scripts/UI/CreateRoom.cs"
+"Assets/Scripts/UI/MainMenu.cs"
+"Assets/Scripts/UI/roomMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize+

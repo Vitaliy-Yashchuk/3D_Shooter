@@ -1,0 +1,30 @@
+{
+    "UxmlGuid": "74ff66d5453ffc041a70082b0bcd6948",
+    "UxmlPath": "Assets/UI/CreateRoom.uxml",
+    "CanvasX": 0,
+    "CanvasY": 0,
+    "CanvasWidth": 2560,
+    "CanvasHeight": 1440,
+    "MatchGameView": false,
+    "ZoomScale": 0.25,
+    "PanOffset": {
+        "x": -47.97969055175781,
+        "y": 102.96092224121094
+    },
+    "ColorModeBackgroundOpacity": 1.0,
+    "ImageModeCanvasBackgroundOpacity": 1.0,
+    "CameraModeCanvasBackgroundOpacity": 1.0,
+    "EnableCanvasBackground": false,
+    "CanvasBackgroundMode": 0,
+    "CanvasBackgroundColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "CanvasBackgroundImage": {
+        "instanceID": 0
+    },
+    "CanvasBackgroundImageScaleMode": 1,
+    "CanvasBackgroundCameraName": ""
+}

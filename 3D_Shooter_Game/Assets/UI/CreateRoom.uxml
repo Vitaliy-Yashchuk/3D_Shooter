@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=e5198c033ce41bf42948de48017aee7b&amp;type=3#main" />
+    <ui:VisualElement class="main-panel" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Create room" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" />
+        <ui:TextField picking-mode="Ignore" label="Enter text " name="UserRoomName" style="width: 918px; margin-top: 100px; font-size: 40px; color: rgb(152, 152, 152); justify-content: center; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); height: 79px;" />
+        <ui:Button text="Create" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateRoomBtn" class="button" style="font-size: 50px; height: 97px; width: 604px; -unity-font-style: bold; margin-top: 100px;" />
+    </ui:VisualElement>
+</ui:UXML>

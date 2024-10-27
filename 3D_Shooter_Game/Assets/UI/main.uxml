@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=e5198c033ce41bf42948de48017aee7b&amp;type=3#main" />
+    <ui:VisualElement name="VisualElement" class="main-panel" style="flex-grow: 1; background-color: rgb(63, 63, 63);">
+        <ui:Label tabindex="-1" text="Main menu" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" />
+        <ui:Button text="Create room" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateRoomBtn" class="button" style="height: 131px; width: 444px; font-size: 60px; margin-top: 120px;" />
+        <ui:Button text="Join room" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" style="height: 131px; width: 444px; font-size: 60px; margin-top: 120px;" />
+    </ui:VisualElement>
+</ui:UXML>

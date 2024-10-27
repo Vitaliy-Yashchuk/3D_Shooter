@@ -26,10 +26,10 @@
                         "m_OldPath": "Assets/UI/Styles/main.uss"
                     }
                 ],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/loading.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/roomMenu.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "dbc99eccf047ef1408a14071e7cdaacc",
+                    "guid": "f858198f662cd9e488430a7d47aa0b0a",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -38,8 +38,8 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "dbc99eccf047ef1408a14071e7cdaacc",
-                    "UxmlPath": "Assets/UI/loading.uxml",
+                    "UxmlGuid": "f858198f662cd9e488430a7d47aa0b0a",
+                    "UxmlPath": "Assets/UI/roomMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 2560,
@@ -47,8 +47,8 @@
                     "MatchGameView": true,
                     "ZoomScale": 0.25,
                     "PanOffset": {
-                        "x": 23.0,
-                        "y": 26.0
+                        "x": 23.285675048828126,
+                        "y": 26.285690307617189
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
