@@ -26,10 +26,10 @@
                         "m_OldPath": "Assets/UI/Styles/main.uss"
                     }
                 ],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/roomMenu.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/JoinRoom.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "f858198f662cd9e488430a7d47aa0b0a",
+                    "guid": "6b20550a80468854f860ab0b0e22026e",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -38,8 +38,8 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "f858198f662cd9e488430a7d47aa0b0a",
-                    "UxmlPath": "Assets/UI/roomMenu.uxml",
+                    "UxmlGuid": "6b20550a80468854f860ab0b0e22026e",
+                    "UxmlPath": "Assets/UI/JoinRoom.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 2560,
@@ -47,8 +47,8 @@
                     "MatchGameView": true,
                     "ZoomScale": 0.25,
                     "PanOffset": {
-                        "x": 23.285675048828126,
-                        "y": 26.285690307617189
+                        "x": 6.33331298828125,
+                        "y": 20.0
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,

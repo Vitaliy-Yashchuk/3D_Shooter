@@ -5,9 +5,9 @@ using UnityEngine.UIElements;
 public class CreateRoom : MonoBehaviour
 {
     private Button _createRoomBtn;
-
     private TextField _userRoomName;
     public GameObject loadingUI;
+
     private void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
@@ -20,14 +20,11 @@ public class CreateRoom : MonoBehaviour
     private void CreateRoomBtnOnClicked()
     {
         string userInput = _userRoomName.value;
-        if (string.IsNullOrEmpty(userInput))
-        {
-            return;
-        }
+        if (string.IsNullOrEmpty(userInput)) return;
+
         PhotonNetwork.CreateRoom(userInput);
+
         gameObject.SetActive(false);
         loadingUI.SetActive(true);
     }
-
-    
 }

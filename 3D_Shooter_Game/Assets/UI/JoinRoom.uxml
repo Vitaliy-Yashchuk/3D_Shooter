@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=e5198c033ce41bf42948de48017aee7b&amp;type=3#main" />
+    <ui:VisualElement name="VisualElement" class="main-panel" style="flex-grow: 1; background-color: rgb(60, 60, 60);">
+        <ui:Label tabindex="-1" text="List of rooms" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" />
+        <ui:VisualElement name="ListOfRooms" style="flex-grow: 1; height: 1174px; width: 776px; background-color: rgba(0, 0, 0, 0.41); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>
