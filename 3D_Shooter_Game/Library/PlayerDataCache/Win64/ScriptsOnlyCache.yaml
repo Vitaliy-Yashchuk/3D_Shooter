@@ -1,16 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp:
+    - PlayerManager
     Assembly-CSharp.dll:
     - CreateRoom
+    - GameController
     - ListOfRooms
     - MainMenu
     - PhotonLauncher
     - roomMenu
     PhotonUnityNetworking:
+    - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
+    - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
@@ -42,6 +47,27 @@ ScriptsOnlyBuild:
     - UnityEngine.UIElements.VisualElementAsset
   methodsToPreserve: []
   sceneClasses:
+    Assets/Scenes/Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -51,9 +77,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -76,6 +110,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17448}
     - Class: 114
+      Script: {instanceID: 18150}
+    - Class: 114
       Script: {instanceID: 18870}
     - Class: 114
       Script: {instanceID: 19500}
@@ -85,9 +121,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21596}
     - Class: 114
       Script: {instanceID: 22774}
+    - Class: 114
+      Script: {instanceID: 24156}
+    - Class: 114
+      Script: {instanceID: 24202}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1198,7 +1240,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6878e4c616b1f7100cf2e529832ff89e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: 1b5bb7624663311b5586c90b2cb7cdb0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
-  playerPath: C:/Users/Vitalino/Desktop/Builds/Test4/3D Shooter Game.exe
+  - Assets/Scenes/Game.unity
+  playerPath: C:/Users/Vitalino/Desktop/Builds/Test1/3D Shooter Game.exe

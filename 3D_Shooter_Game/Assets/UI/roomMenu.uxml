@@ -2,5 +2,6 @@
     <Style src="project://database/Assets/UI/Styles/main.uss?fileID=7433441132597879392&amp;guid=e5198c033ce41bf42948de48017aee7b&amp;type=3#main" />
     <ui:VisualElement name="VisualElement" class="main-panel" style="flex-grow: 1; align-items: center; justify-content: center;">
         <ui:Label tabindex="-1" text="Room was created" parse-escape-sequences="true" display-tooltip-when-elided="true" name="roomName" class="label" style="margin-top: 0; -unity-text-align: upper-left;" />
+        <ui:Button text="Start game" parse-escape-sequences="true" display-tooltip-when-elided="true" view-data-key="StartGameBtn" name="StartGameBtn" class="button" style="height: 87px; width: 338px;" />
     </ui:VisualElement>
 </ui:UXML>
