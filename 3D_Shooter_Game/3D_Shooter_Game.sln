@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities", "PhotonUnityNetworking.Utilities.csproj", "{2f3cb049-c203-6ad6-5e57-824cdb2da73c}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{a6de19a7-cae7-7fed-b71a-3261d4556761}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities.Culling.Editor", "PhotonUnityNetworking.Utilities.Culling.Editor.csproj", "{ac61eed5-ff02-9c4b-0c27-87cc41fe7556}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonWebSocket", "PhotonWebSocket.csproj", "{a0472f88-54b9-021c-fbfb-b1a59fe83879}"
@@ -38,6 +40,8 @@ Global
 		{9ddfc782-d82f-7491-49ec-8962d08d8476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2f3cb049-c203-6ad6-5e57-824cdb2da73c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2f3cb049-c203-6ad6-5e57-824cdb2da73c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a6de19a7-cae7-7fed-b71a-3261d4556761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a6de19a7-cae7-7fed-b71a-3261d4556761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ac61eed5-ff02-9c4b-0c27-87cc41fe7556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ac61eed5-ff02-9c4b-0c27-87cc41fe7556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a0472f88-54b9-021c-fbfb-b1a59fe83879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

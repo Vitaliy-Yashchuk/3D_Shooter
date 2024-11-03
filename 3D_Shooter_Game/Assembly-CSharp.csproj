@@ -47,15 +47,20 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\PhotonLauncher.cs" />
+    <Compile Include="Assets\Scripts\TakeDamageNPC.cs" />
     <Compile Include="Assets\Scripts\UI\ListOfRooms.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+    <Compile Include="Assets\Room\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\ShootNPC.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Scripts\UI\CreateRoom.cs" />
     <Compile Include="Assets\Scripts\UI\roomMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Scripts\CreateEnemy.cs" />
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
     <None Include="Assets\UI\CreateRoom.uxml" />
@@ -714,8 +719,17 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -732,14 +746,17 @@
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -753,6 +770,9 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
@@ -765,6 +785,9 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
@@ -774,11 +797,23 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:\Users\Vitalino\Desktop\3D_Shoter\3D_Shooter_Game\Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -798,13 +833,13 @@
       <Project>{27f4bf93-a251-f023-ac95-4388d8e70bc4}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{2e85b59f-ade8-bf9f-d905-99690f0dba42}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{ac61eed5-ff02-9c4b-0c27-87cc41fe7556}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{2e85b59f-ade8-bf9f-d905-99690f0dba42}</Project>
+      <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{2f3cb049-c203-6ad6-5e57-824cdb2da73c}</Project>
